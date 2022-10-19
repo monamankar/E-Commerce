@@ -8,6 +8,7 @@ function Layout() {
       <a href='/home'>Home</a> <br />
       <a href='/aboutus'>AboutUs</a><br/>
       <a href='/addproduct'>AddProduct</a><br/>
+      <a href='/addproduct2'>AddProduct2</a><br/>
       <a href='/editproduct'>EditProduct</a><br/>
       <a href='/listproduct'>ListProduct</a><br/> 
       <Outlet/>
