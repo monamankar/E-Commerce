@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 function AddProduct(){
     
-    const [name,setName] = useState("Poorva");
+    const [name,setName] = useState([]);
 
     const [res,setRes] = useState([]);
 

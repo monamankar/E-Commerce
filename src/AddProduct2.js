@@ -3,30 +3,29 @@ import {useState} from 'react';
 
 function AddProduct2(){
     
-    const [name,setName] = useState("Poorva");
+    const [name,setName] = useState([]);
 
     const [res,setRes] = useState([]);
 
     const [res2,setRes2] = useState([]);
 
-
     return(
 
     <div>
 
-        <h2>Add Product</h2>
+        <h2>Add Product 2</h2>
 
-        <input type = "text" onChange={(e)=>{setName(e.target.value)}}/><br></br>
+        <input type = "text" onChange={(e)=>{setName(e.target.value)}}/>
         <button onClick={()=>
         {
         res.push(name)
         setRes([...res]);
         }
-        }>Add</button>
+        }>Add</button><br></br>
 
         {res && res.map((value,index)=>
         {
-            return <div key={index}>Name:{value}{index} </div>
+            return <div key={index}>Name: {value} {index} </div>
         })}
         
           
