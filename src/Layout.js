@@ -12,6 +12,9 @@ function Layout() {
       <a href='/addproduct3'>Addproduct3</a><br/>
       <a href='/editproduct'>EditProduct</a><br/>
       <a href='/listproduct'>ListProduct</a><br/> 
+      <a href='/showpost'>ShowPost</a><br/> 
+      <a href='/userlist'>Userlist</a><br/> 
+      
       <Outlet/>
     </div>
   );

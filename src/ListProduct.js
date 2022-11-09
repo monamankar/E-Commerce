@@ -34,7 +34,7 @@ return(
     <td>C</td>
     <td>F</td>
     <td>300</td>
-    <td>Edit-Delete</td>
+    <td><td><button>Edit</button></td><td><button>Delete</button></td></td>
   </tr>
   </table>
 </div>
