@@ -1,16 +1,15 @@
+import './App.css';
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import AboutUs from './AboutUs';
 import AddProduct from './AddProduct';
 import AddProduct2 from "./AddProduct2";
 import AddProduct3 from "./AddProduct3";
-import './App.css';
 import EditProduct from './EditProduct';
 import Home from './Home';
 import Layout from './Layout';
 import ListProduct from "./ListProduct";
 import Showpost from "./Showpost";
 import Userlist from "./Userlist";
-
 
 function App() {
   return (
@@ -27,7 +26,8 @@ function App() {
         <Route path='listproduct' element={<ListProduct/>}/> 
         <Route path='showpost' element={<Showpost/>}/> 
         <Route path='userlist' element={<Userlist/>}/> 
-            
+
+                  
         
       </Routes>
    
